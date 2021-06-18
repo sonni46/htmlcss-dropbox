@@ -122,16 +122,18 @@ body {
  /* cont-piano */
 
  .cont-piano {
-     width: 70%;
+     width: 60%;
      margin: 0 auto;
      height: 800px;
  }
 
  .cont-piano h2 {
      margin-top: 15%;
-     text-align: center;
-     font-size: 40px;
+     text-align: left;
+     font-size: 45px;
  } 
+
+ /* rot-bottoni */
 
 #rot-button {
     width: 20px;
@@ -142,17 +144,80 @@ body {
     vertical-align: middle;
  }
 
- .rot {
-     margin-top: 5%;
-     margin-left: 18.5%;
+.rot {
+    margin: 2% 0;
+     
  }
 .spa {
     padding-right: 2%;
 }
 
+/* fine rot-bottoni */
 
+.colonna {
+    display: inline-block;
+    width: 30%;
+    height: 900px;
+    border:1px solid rgba(0, 0, 0, 0.37); 
+    margin-top: 2%;
+}
 
+.testa {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    text-align: center;
+    padding: 2% 0;
+}
 
+.margin {
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.margin #bottone {
+    display: inline-block;
+    margin-top: 10%;
+    padding: 5px 30px;
+    text-align: center;  
+}
+
+.margin p  {
+    margin: 5% 0;
+}
+
+#profes {
+    margin-bottom: 20%;
+}
+
+#profes h3 {
+    font-size: 30px;
+}
+
+.mese {
+    color: gray;
+}
+
+.acquista-ora {
+    margin-top: 5%;
+}
+
+.acquista-ora * {
+    display: inline-block;
+
+}
+
+#border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    padding-bottom: 10%;
+}
+
+#tx-blue {
+    color: blue;
+}
+
+.punti {
+    margin-top: 15%;
+}
 
 /* fine cont-piano */
 
