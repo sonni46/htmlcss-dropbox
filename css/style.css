@@ -130,10 +130,25 @@ body {
  .cont-piano h2 {
      margin-top: 15%;
      text-align: center;
-     font-size: 30px;
+     font-size: 40px;
  } 
 
+#rot-button {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 5px solid rgb(65, 77, 240);
+    border-radius: 10px;
+    vertical-align: middle;
+ }
 
+ .rot {
+     margin-top: 5%;
+     margin-left: 18.5%;
+ }
+.spa {
+    padding-right: 2%;
+}
 
 
 
