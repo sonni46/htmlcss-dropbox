@@ -66,7 +66,6 @@ body {
 
 /* main  */
 
-
 /* cont-prova  */
 
 .cont-prova {
@@ -124,7 +123,7 @@ body {
 .cont-piano {
     width: 60%;
     margin: 0 auto;
-    height: 500vh;
+    height: 380vh;
  }
 
 #titolo-piano {
@@ -331,16 +330,136 @@ body {
 
     /* fine tabella immagini  */
 
+.team {
+    width: 40%;
+    margin-top: 20%;
+}
 
+.team h2 {
+    font-size: 30px;
+}
 
+.team p{
+    margin-top: 5%;
 
-
-
-
-
-
+}
 
     /* fine cont-piano */
+
+.cont-team {
+    width: 100%;
+    height: 100vh;
+}
+
+/* debug */
+
+
+#gruppo { 
+    float: left;
+}
+
+.team-logo {
+    width:50% ;
+    margin-top: 50%;
+    margin-left:50%; 
+    filter: invert(1);
+    transform: translate(-50%, -50%);
+}
+
+.team-green {
+    background-color:rgb(50, 190, 143) ;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.team-azzuro {
+    background-color:rgb(50, 157, 190) ;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.team-marrone {
+    background-color:rgb(109, 6, 6) ;
+    width: 250px;
+    height: 250px;
+}
+
+.team-red {
+    background-color:rgb(235, 30, 30) ;
+    width: 250px;
+    height: 250px;
+}
+
+/* logo centrale  */
+
+.team-white {
+    background-color:rgb(185, 180, 180);
+    width: 900px;
+    height: 500px;
+    
+}
+
+.border-logo {
+    width: 10%;
+    border-top: 1px solid gray;
+}
+
+.center-logo {
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+.margin-center {
+    width: 100%;
+    padding: 5%;
+}
+
+/* fine logo centro  */
+
+.team-redb {
+    background-color:rgb(194, 35, 35) ;
+    width: 250px;
+    height: 250px;
+}
+
+.team-blu {
+    background-color:rgb(35, 46, 194) ;
+    width: 250px;
+    height: 250px;
+}
+
+.team-blul {
+    background-color: lightsteelblue; 
+    width: 250px;
+    height: 250px;
+}
+
+.team-yellow {
+    background-color: rgb(255, 217, 0); 
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+/* fine debug */
+
+
+
+
+
+
+
+
+
 
 /* fine main */
 
